@@ -1,0 +1,30 @@
+{
+  "name": "superman",
+  "version": "0.0.1",
+  "description": "Package.json versioning",
+  "preferGlobal": true,
+  "bin": {
+    "sop": "bin/sliceofpizza"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMartianGeeks/superman.git"
+  },
+  "keywords": [
+    "superman",
+    "versioning",
+    "package.json"
+  ],
+  "author": "The Martian Geeks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMartianGeeks/superman/issues"
+  },
+  "homepage": "https://github.com/TheMartianGeeks/superman#readme"
+}
