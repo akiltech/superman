@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/hassane/code/Npm/superman',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/hassane/.npm/superman/0.0.1/package.tgz not in flight; packing
+9 info lifecycle superman@0.0.1~prepublish: superman@0.0.1
+10 silly lifecycle superman@0.0.1~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/home/hassane/.npm/superman/0.0.1/package.tgz',
+11 verbose tar pack   '/home/hassane/code/Npm/superman' ]
+12 verbose tarball /home/hassane/.npm/superman/0.0.1/package.tgz
+13 verbose folder /home/hassane/code/Npm/superman
+14 verbose addLocalTarball adding from inside cache /home/hassane/.npm/superman/0.0.1/package.tgz
+15 silly cache afterAdd superman@0.0.1
+16 verbose afterAdd /home/hassane/.npm/superman/0.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /home/hassane/.npm/superman/0.0.1/package/package.json written
+18 silly publish { name: 'superman',
+18 silly publish   version: '0.0.1',
+18 silly publish   description: 'Package.json versioning',
+18 silly publish   preferGlobal: true,
+18 silly publish   bin: { superman: 'bin/superman' },
+18 silly publish   directories: { lib: 'lib' },
+18 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/TheMartianGeeks/superman.git' },
+18 silly publish   keywords: [ 'superman', 'versioning', 'package.json' ],
+18 silly publish   author: { name: 'The Martian Geeks' },
+18 silly publish   license: 'MIT',
+18 silly publish   bugs: { url: 'https://github.com/TheMartianGeeks/superman/issues' },
+18 silly publish   homepage: 'https://github.com/TheMartianGeeks/superman#readme',
+18 silly publish   readme: '# Superman\nnodejs versioning\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '590b3c89c0aeba0633f2244177f4fb5e5015c514',
+18 silly publish   _id: 'superman@0.0.1',
+18 silly publish   _shasum: '45887a31586c1e0bd99ad05df44333aa1049c036',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name superman
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/superman
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /home/hassane/.npm/superman/0.0.1/package.tgz
+26 verbose stack Error: auth required for publishing
+26 verbose stack     at CachingRegistryClient.publish (/usr/share/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+26 verbose stack     at /usr/share/npm/lib/publish.js:137:14
+26 verbose stack     at mapToRegistry (/usr/share/npm/lib/utils/map-to-registry.js:55:3)
+26 verbose stack     at publish_ (/usr/share/npm/lib/publish.js:106:3)
+26 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+26 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+26 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:14:28)
+26 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+26 verbose stack     at /usr/share/npm/lib/publish.js:72:5
+26 verbose stack     at RES (/usr/share/npm/node_modules/inflight/inflight.js:23:14)
+27 verbose cwd /home/hassane/code/Npm/superman
+28 error Linux 4.15.0-20-generic
+29 error argv "/usr/bin/node" "/usr/local/bin/npm" "publish"
+30 error node v8.10.0
+31 error npm  v3.5.2
+32 error code ENEEDAUTH
+33 error need auth auth required for publishing
+34 error need auth You need to authorize this machine using `npm adduser`
+35 verbose exit [ 1, true ]
