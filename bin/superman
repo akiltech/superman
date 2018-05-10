@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'Superman CLI';
+
+var supermanCli = require('../lib/cli');
