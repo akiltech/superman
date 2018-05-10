@@ -4,7 +4,7 @@
   "description": "Package.json versioning",
   "preferGlobal": true,
   "bin": {
-    "sop": "bin/sliceofpizza"
+    "superman": "bin/superman"
   },
   "directories": {
     "lib": "lib"
@@ -22,9 +22,15 @@
     "package.json"
   ],
   "author": "The Martian Geeks",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/TheMartianGeeks/superman/issues"
   },
-  "homepage": "https://github.com/TheMartianGeeks/superman#readme"
+  "homepage": "https://github.com/TheMartianGeeks/superman#readme",
+  "dependencies": {
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.7"
+  }
 }
