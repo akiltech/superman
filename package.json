@@ -1,6 +1,6 @@
 {
   "name": "superman",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Package.json versioning",
   "preferGlobal": true,
   "bin": {
@@ -10,7 +10,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,16 @@
     "versioning",
     "package.json"
   ],
-  "author": "The Martian Geeks",
+  "author": "The Martian Geeks <contact@themartiangeeks.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheMartianGeeks/superman/issues"
   },
   "homepage": "https://github.com/TheMartianGeeks/superman#readme",
+  "contributors": [
+    "Hassane Dao <dao.hassane@themartiangeeks.com> (http://github.com/daohassane)",
+    "Houssene Dao <dao.houssene@themartiangeeks.com> (http://github.com/houssenedao)"
+  ],
   "dependencies": {
     "colors": "^1.2.4",
     "commander": "^2.15.1",
@@ -35,6 +40,9 @@
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {
-    "@types/node": "^10.0.7"
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "5.1.1"
   }
 }
