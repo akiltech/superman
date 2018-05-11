@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/superman-versioning.png)](https://nodei.co/npm/superman-versioning/)
 
-# Superman
+# Superman Versioning
 Manage your app versioning by `CLI` with `superman`
 
 ## Installation
