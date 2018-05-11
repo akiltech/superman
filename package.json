@@ -22,7 +22,7 @@
     "package.json"
   ],
   "author": "The Martian Geeks",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheMartianGeeks/superman/issues"
   },
