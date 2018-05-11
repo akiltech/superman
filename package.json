@@ -1,6 +1,6 @@
 {
-  "name": "Superman",
-  "version": "0.0.1",
+  "name": "superman",
+  "version": "0.1.0",
   "description": "Package.json versioning",
   "preferGlobal": true,
   "bin": {
@@ -22,15 +22,17 @@
     "package.json"
   ],
   "author": "The Martian Geeks",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheMartianGeeks/superman/issues"
   },
   "homepage": "https://github.com/TheMartianGeeks/superman#readme",
   "dependencies": {
+    "colors": "^1.2.4",
     "commander": "^2.15.1",
+    "node-notifier": "^5.2.1",
     "shelljs": "^0.8.2",
-    "colors": "^1.2.4"
+    "update-notifier": "^2.5.0"
   },
   "devDependencies": {
     "@types/node": "^10.0.7"

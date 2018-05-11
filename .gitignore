@@ -1,5 +1,5 @@
 .idea
 .vscode
 .DS_Store
-package-lock.json
 /node_modules/
+npm-debug.log
