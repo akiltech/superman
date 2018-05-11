@@ -10,7 +10,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,9 @@
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {
-    "@types/node": "^10.0.7"
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "5.1.1"
   }
 }
