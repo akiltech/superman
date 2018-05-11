@@ -4,8 +4,4 @@
 
 process.title = 'Superman CLI';
 
-<<<<<<< HEAD
-var supermanCli = require('../lib/cli');
-=======
 let supermanCli = require('../lib/cli');
->>>>>>> 6ad0858b98a4fef95e80a73767283ee116b6d5b2
