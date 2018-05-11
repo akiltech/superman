@@ -1,8 +1,12 @@
-# Superman
+[![npm version](https://badge.fury.io/js/superman-versioning.svg)](https://badge.fury.io/js/superman-versioning)
+
+[![NPM](https://nodei.co/npm/superman-versioning.png)](https://nodei.co/npm/superman-versioning/)
+
+# Superman Versioning
 Manage your app versioning by `CLI` with `superman`
 
 ## Installation
-    $ npm install -g superman
+    $ npm install -g superman-versioning
 
 ## Auto update
     $ superman version:update
@@ -12,9 +16,6 @@ Manage your app versioning by `CLI` with `superman`
     
 ## Init version
     $ superman version:init
-
-## Tests
-  `npm test`
 
 ## Contributing
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
