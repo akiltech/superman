@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/TheMartianGeeks/superman#readme",
   "dependencies": {
+    "colors": "^1.2.4",
     "commander": "^2.15.1"
   },
   "devDependencies": {
