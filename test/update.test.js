@@ -1,14 +1,27 @@
 'use strict';
 
 let expect = require('chai').expect;
-let fileVersion = require('./package').version;
-//let superman = require('../lib/cli');
+const {updateVersion} = require('../lib/actions/update.action');
+
+const options = {
+    major: false, minor: false, patch: false
+};
+
+const optionsMajor = {
+    major: false, minor: false, patch: false
+};
+
+const optionsMinor = {
+    major: false, minor: false, patch: false
+};
+
+const optionsPatch= {
+    major: false, minor: false, patch: false
+};
 
 describe('version:update', function() {
-    it('should update package version', function() {
-
-
-        //expect(result).to.equal('1');
+    it('should update version', function() {
+        //
     });
 
     it('should convert double digits', function() {
