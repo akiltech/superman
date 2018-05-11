@@ -29,7 +29,8 @@
   "homepage": "https://github.com/TheMartianGeeks/superman#readme",
   "dependencies": {
     "commander": "^2.15.1",
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.2",
+    "colors": "^1.2.4"
   },
   "devDependencies": {
     "@types/node": "^10.0.7"
