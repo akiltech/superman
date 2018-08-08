@@ -14,22 +14,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheMartianGeeks/superman.git"
+    "url": "git+https://github.com/akiltech/superman.git"
   },
   "keywords": [
     "superman",
     "versioning",
     "package.json"
   ],
-  "author": "The Martian Geeks <contact@themartiangeeks.com>",
+  "author": "The Martian Geeks <contact@akiltechnologies.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheMartianGeeks/superman/issues"
+    "url": "https://github.com/akiltech/superman/issues"
   },
-  "homepage": "https://github.com/TheMartianGeeks/superman#readme",
+  "homepage": "https://github.com/akiltech/superman#readme",
   "contributors": [
     "Hassane Dao <dao.hassane@themartiangeeks.com> (http://github.com/daohassane)",
-    "Houssene Dao <dao.houssene@themartiangeeks.com> (http://github.com/houssenedao)"
+    "Houssene Dao <houssene.dao@akiltechnologies.com> (http://github.com/houssenedao)"
   ],
   "dependencies": {
     "colors": "^1.2.4",
